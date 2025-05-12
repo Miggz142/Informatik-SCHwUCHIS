@@ -2,7 +2,6 @@
 /**
  * In dieser Datei werden alle Konfigurationen für die Webseite vorgenommen.
  * Dazu gehören die Datenbankverbindung und die Sessionkonfiguration.
- * Hier musst du deine eigenen Datenbankdaten eintragen.
  */
 
 define('DB_HOST', 'localhost');
