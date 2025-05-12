@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Gesamte Seite */
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-image: url('imagescheshi/backgroundlogin.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        /* Container für Logo und Login-Box */
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Logo Bereich */
+        .logo img {
+            width: 400px;
+            margin-bottom: 10px;
+        }
+
+        /* Login-Box */
+        .login-box {
+            background-color: rgb(240, 240, 240);
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        /* Eingabefelder */
+        input[type="text"], input[type="password"]   {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        /* Einloggen Button */
+        button[type="submit"] {
+            width: 30%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            color: #000000;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            box-sizing: border-box;
+        }    
+
+        /* Links für "Passwort vergessen" und "Registrieren" */
+        .link {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #00c3f1;
+            font-size: 14px;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Logo Bereich -->
+    <div class="logo">
+        <img src="imagescheshi/CheshiAdlerZusammenAmk.png" alt="Logo"> <!-- Hier kannst du dein Logo einfügen -->
+    </div>
+
+    <!-- Login-Box -->
+    <div class="login-box">
+        <form action="#">
+            <input type="text" name="username" placeholder="Benutzername" required>
+            <input type="password" name="password" placeholder="Passwort" required>
+            <button type="submit">Einloggen</button>
+        </form>
+        <a href="#" class="link">Passwort vergessen?</a>
+        <a href="#" class="link">Registrieren</a>
+    </div>
+</div>
+
+</body>
+</html>
