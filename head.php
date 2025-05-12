@@ -1,7 +1,7 @@
 <?php
 /**
  * Diese Datei wird in am Anfang jeder Seite eingebunden und dient dazu, valides HTML auszugeben.
- * Du kannst hier auch den Link zu deinem Stylesheet einfügen.
+( bspw. link zu stylesheet )
  */
 ?>
 
